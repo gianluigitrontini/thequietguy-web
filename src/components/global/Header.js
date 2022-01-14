@@ -61,7 +61,7 @@ function Header() {
             </li>
           ))}
           <button
-            className='mt-12 border-2 border-white py-3 px-6 text-white'
+            className='text-white mt-12 border-2 border-white py-3 px-6'
             onClick={() => setIsHamburgerToggled(false)}>
             Close
           </button>
@@ -72,8 +72,8 @@ function Header() {
 
   const DesktopNavigation = () => {
     return (
-      <nav id='desktop-nav' className='w-full hidden lg:block'>
-        <ul className='flex items-center justify-between gap-4 text-center'>
+      <nav id='desktop-nav' className='hidden lg:block'>
+        <ul className='flex items-center justify-between gap-16 uppercase text-center'>
           {NAV.map((link, i) => (
             <li key={i} className=''>
               <Link to={link.path}>{link.name}</Link>
@@ -86,14 +86,14 @@ function Header() {
 
   return (
     <header className='h-[85px] flex items-center z-10'>
-      <div className='container flex items-center justify-center'>
+      <div className='container flex items-center justify-between'>
         {/* Logo Here*/}
-
+        <h1>The Quiet Guy</h1>
         {/* Desktop Nav */}
         <DesktopNavigation />
         {/* Hamburger Icon */}
         <div
-          className='text-white lg:hidden'
+          className='lg:hidden ml-auto cursor-pointer'
           onClick={() => setIsHamburgerToggled(true)}>
           <Icon hamburger />
         </div>
