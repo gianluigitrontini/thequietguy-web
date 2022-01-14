@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/thequietguy-web/static/css/main.4b81166a.css",
+    "main.js": "/thequietguy-web/static/js/main.43f7be64.js",
+    "static/media/giona-web.png": "/thequietguy-web/static/media/giona-web.943c0f8cbf8bb7d55b47.png",
+    "static/media/bubble.png": "/thequietguy-web/static/media/bubble.5eec6f84730bc9f73ccf.png",
+    "static/media/python.png": "/thequietguy-web/static/media/python.67a96446f70ae7be72e9.png",
+    "static/media/coding-hero.JPG": "/thequietguy-web/static/media/coding-hero.a05affcf841ff5630fdd.JPG",
+    "static/media/maastricht-university.png": "/thequietguy-web/static/media/maastricht-university.81f49a006401d11e8f61.png",
+    "static/media/giona-hero-1.JPG": "/thequietguy-web/static/media/giona-hero-1.f5617d687bd52e6000ef.JPG",
+    "static/media/microservices.jpg": "/thequietguy-web/static/media/microservices.8beb63fe509dd0e23231.jpg",
+    "static/media/docker.png": "/thequietguy-web/static/media/docker.027d2c4e288f42504dd9.png",
+    "static/media/golang.png": "/thequietguy-web/static/media/golang.9299c975a9948e08ee6a.png",
+    "static/media/cm-logo.jfif": "/thequietguy-web/static/media/cm-logo.07bcc3b2c46774e41526.jfif",
+    "index.html": "/thequietguy-web/index.html",
+    "main.4b81166a.css.map": "/thequietguy-web/static/css/main.4b81166a.css.map",
+    "main.43f7be64.js.map": "/thequietguy-web/static/js/main.43f7be64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b81166a.css",
+    "static/js/main.43f7be64.js"
+  ]
+}
