@@ -1,0 +1,47 @@
+@import './stylesheets/tailwind.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// html,
+// body {
+//   min-height: 100vh;
+// }
+
+// body {
+//   @apply flex flex-col;
+// }
+// #root {
+//   @apply h-full flex-1 flex flex-col;
+// }
+
+.container {
+  @apply mx-auto px-4;
+  width: 100%;
+  @screen md {
+    @apply px-8;
+
+    max-width: 1400px;
+  }
+}
+
+.text-heading {
+  font-size: 28px;
+  @screen lg {
+    font-size: 36px;
+  }
+}
+
+.text-paragraph {
+  font-size: 16px;
+  @screen lg {
+    font-size: 20px;
+  }
+}
+
+.text-span {
+  font-size: 14px;
+}
