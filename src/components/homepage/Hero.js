@@ -11,18 +11,27 @@ function Hero() {
     });
   });
   return (
-    <section className='hero bg-white py-8'>
-      <div className='container flex h-full items-start gap-4'>
-        <div className='flex flex-col gap-4'>
-          <img src={giona} alt='' style={{ borderTopLeftRadius: '200px' }} />
+    <section className='hero bg-white py-8 w-full'>
+      <div className='container flex flex-col lg:flex-row h-[60vh] lg:h-full items-start gap-4'>
+        <div className='flex flex-row lg:w-1/2 lg:flex-col gap-1'>
+          <img
+            src={giona}
+            className='w-1/2 lg:w-full'
+            alt=''
+            style={{ borderTopLeftRadius: '200px' }}
+          />
           <img
             src={coding}
+            className='w-1/2 lg:w-full'
             alt=''
             style={{ borderBottomRightRadius: '200px' }}
           />
         </div>
-        <h1 className='uppercase text-6xl font-bold sticky top-[2rem]'>
-          Hello! My name is{' '}
+        <h1 className='uppercase text-3xl lg:text-6xl font-bold sticky top-[2rem]'>
+          <span className='block lg:inline text-4xl lg:text-6xl mb-4 lg:mb-0'>
+            Hello!
+          </span>{' '}
+          My name is{' '}
           <span className='tracking-wide inline-block text-[#a8a8a8]'>
             thequietguy
           </span>{' '}

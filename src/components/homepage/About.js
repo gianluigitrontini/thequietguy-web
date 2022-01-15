@@ -9,17 +9,21 @@ function About() {
   return (
     <section id='about'>
       <div className='container flex flex-col py-8 my-24'>
-        <h3 className='text-5xl text-center'>
+        <h3 className='text-3xl lg:text-5xl text-center'>
           I really, really like <span className='font-bold'>backend</span>{' '}
           development.
         </h3>
-        <p className='text-center text-4xl mt-12 mb-8'>I usually eat</p>
+        <p className='text-center text-3xl lg:text-4xl mt-12 mb-8'>
+          I usually eat
+        </p>
         <div className='flex items-center mx-auto my-8'>
           <img src={Net} className='w-20' alt='Microsoft .Net' />
-          <span className='font-bold text-4xl text-gray-300 mx-8'>&amp;</span>
+          <span className='font-bold text-3xl lg:text-4xl text-gray-300 mx-8'>
+            &amp;
+          </span>
           <img src={Python} className='w-20' alt='Python' />
         </div>
-        <p className='text-center text-4xl my-8'>
+        <p className='text-center text-3xl lg:text-4xl my-8'>
           but I'm always eager to find out more about the things I like <br />
           &mdash; that's the reason we can also talk about
         </p>
